@@ -164,6 +164,15 @@ class RAGApp(ctk.CTk):
             self.answer_frame, width=900, height=400)
         self.answer_text.grid(row=1, column=0, padx=5, pady=5, sticky="nsew")
 
+        if self.loader_type.get() == "PDF Loader":
+            # set all pdf loader element to shown and hide all web loader elements
+            self.pdf_frame.grid()
+            self.web_frame.grid_remove()
+        else:
+            # set all web loader elements to shown and hide all pdf loader elements
+            self.pdf_frame.grid_remove()
+            self.web_frame.grid()
+
     def load_config(self):
         """Load settings from config file"""
         if os.path.exists(self.config_file):
