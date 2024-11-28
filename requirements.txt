@@ -1,0 +1,9 @@
+bs4
+requests
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+pymupdf
+customtkinter
+cx_freeze
