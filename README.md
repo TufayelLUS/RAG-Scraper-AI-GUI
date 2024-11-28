@@ -4,6 +4,11 @@ A Python-based RAG (Retrieval Augmented Generation) application that allows you 
 
 ---
 
+## Youtube Video Guide
+[Watch Video Here](https://www.youtube.com/watch?v=yJeLs0_mVN4)
+
+---
+
 ## GUI Software Guideline
 Download this repository as a zipped file and inside build folder, you'll find the compiled executable file. No need to install anything except Ollama and the required models.
 
