@@ -40,7 +40,7 @@ After installing Ollama, open a terminal/command prompt and run:
 
 ```bash
 # Install the base LLM model
-ollama pull llama2
+ollama pull llama3.2
 
 # Install the embeddings model
 ollama pull all-minilm
@@ -95,7 +95,7 @@ a. **Select Loader Type:**
    - **PDF Loader:** For reading PDF files.
 
 b. **Select Models:**
-   - **Base Model:** Choose the LLM for answering questions (e.g., llama2).
+   - **Base Model:** Choose the LLM for answering questions (e.g., llama3.2).
    - **Embeddings Model:** Choose the model for text embeddings (e.g., all-minilm).
 
 c. **For Web Loader:**
