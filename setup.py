@@ -13,7 +13,8 @@ executables = [Executable("RAG Scraper.py", base=base)]
 options = {
     "build_exe": {
         "optimize": 2, # set level of optimization 0-2
-        "packages": [],  # List of packages to include
+        "packages": ["chromadb", "chromadb.api.segment", "chromadb.execution.executor.local", "pydantic", "pydantic.deprecated.decorator", "chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2", "onnxruntime", "opentelemetry", "opentelemetry.context.contextvars_context", "chromadb.telemetry.product.posthog", "chromadb.segment.impl.metadata.sqlite"],  # List of packages to include
+        "includes": ["chromadb.quota.simple_quota_enforcer", "chromadb.telemetry.opentelemetry"],
         "include_files": [],  # List of additional files to include
     },
 }

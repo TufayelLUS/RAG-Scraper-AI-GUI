@@ -4,6 +4,15 @@ A Python-based RAG (Retrieval Augmented Generation) application that allows you 
 
 ---
 
+## GUI Software Guideline
+Download this repository as a zipped file and inside build folder, you'll find the compiled executable file. No need to install anything except Ollama and the required models.
+
+---
+## Software Preview
+![image](https://github.com/TufayelLUS/RAG-Scraper-AI-GUI/blob/main/ss.png?raw=true)
+
+---
+
 ## Prerequisites
 
 ### 1. Install Ollama
@@ -162,7 +171,9 @@ The application saves your preferences in `settings.ini`:
 - Ollama installed and running
 - Sufficient disk space for models
 - Internet connection for web scraping
-- Adequate RAM (8GB minimum recommended)
+- Adequate RAM (16GB minimum recommended)
+
+---
 
 ## Looking for a Software Engneer?
 Reach out to me on [Fiverr](https://www.fiverr.com/thechoyon).
